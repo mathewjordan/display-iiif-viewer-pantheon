@@ -1,0 +1,30 @@
+{
+  "name": "display-iiif-viewer",
+  "version": "0.0.2",
+  "private": true,
+  "description": "",
+  "author": "Mat Jordan",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "block",
+    "IIIF"
+  ],
+  "homepage": "https://github.com/mathewjordan/display-iiif-viewer",
+  "main": "build/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^18.0.1"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@radix-ui/react-toolbar": "^0.1.1",
+    "@stitches/react": "^1.2.5",
+    "@yith/yith": "^1.0.25"
+  }
+}

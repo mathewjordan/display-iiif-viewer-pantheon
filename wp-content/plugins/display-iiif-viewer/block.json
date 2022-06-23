@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "display-iiif-viewer/display-iiif-viewer",
+  "title": "Display IIIF Viewer",
+  "textdomain": "display-iiif-viewer",
+  "icon": "embed-photo",
+  "category": "design",
+  "attributes": {
+    "id": {
+      "type": "string",
+      "selector": "input"
+    },
+    "preview": {
+      "type": "string",
+      "selector": "input",
+      "default": "figure"
+    },
+    "type": {
+      "type": "string",
+      "selector": "input",
+      "default": "presentation"
+    }
+  },
+  "example": {
+    "attributes": {
+      "content": "Hello world"
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}
