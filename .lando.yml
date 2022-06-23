@@ -1,0 +1,6 @@
+name: display-iiif-viewer
+recipe: pantheon
+config:
+  framework: wordpress
+  site: display-iiif-viewer
+  id: 5337ee5d-6126-41ff-9991-26dffa652c8c
